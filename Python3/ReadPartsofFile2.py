@@ -1,0 +1,5 @@
+file = open("yahoo!.txt", "r")
+cough = file.read()
+cool = cough.split()
+print(len(cool))
+file.close()
